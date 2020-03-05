@@ -4799,7 +4799,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/rajesh/Code/learn-new/hello-next/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/rajesh/Code/learn-next/hello-next/.next");
       return error;
     }
   };

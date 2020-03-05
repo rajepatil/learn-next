@@ -1,11 +1,13 @@
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 const About = () =>
 {
     return (
-        <div>
-            <Navbar />
-            <p>Hello About</p>
-        </div>
+        <Layout>
+
+            <div>
+                <p>Hello About</p>
+            </div>
+        </Layout>
     );
 }
 
